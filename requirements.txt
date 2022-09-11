@@ -1,0 +1,4 @@
+keyboard==0.13.5
+PyAutoGUI==0.9.53
+PyQt5==5.15.7
+pywin32==304
