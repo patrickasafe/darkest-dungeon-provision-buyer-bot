@@ -2,7 +2,7 @@
 # Darkest Dungeon Provision Autobuy Bot
 This bot intends to autobuy provisions for your expedition every time the game shows "Provisions Screen"
 
-PS.: since this bot uses pywin32 lib, this bot only works on windows, it's easely adaptable to linux, since only the click function uses this lib. (I'm planning to do this)
+PS.: since this bot uses pywin32 lib, this bot only works on Windows, it's easily adaptable to Linux, since only the click function uses this lib. (I'm planning to do this)
 
 ## About the project
 Why make an autobuy provisions bot?
@@ -19,7 +19,7 @@ Python is also my favorite technology, and I'm recently doing some professional 
 
     pip install -r requirements.txt
 
-3 - Open the game and at settings, disable fullscreen and at window set your monitor resolution (enabling windowed mode).
+3 - Open the game and at settings, disable "Fullscreen" checkbox and at "Resolution" set your monitor resolution.
 
   <img width="749" alt="Darkest Dungeon Settings Menu" src="https://user-images.githubusercontent.com/65199318/189550530-a83c0d4b-c225-43b9-93cb-ab1eb1fb7f0b.png">
 
@@ -29,3 +29,6 @@ Python is also my favorite technology, and I'm recently doing some professional 
 Then, just run the file "run.py"
 
     
+## Future
+
+Add PyQT5 gui
