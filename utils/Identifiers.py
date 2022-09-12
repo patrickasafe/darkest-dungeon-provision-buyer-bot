@@ -1,6 +1,11 @@
 import pyautogui
 
-from configs import LENGTH_REGION
+from utils.screen_resolution_adjuster import relative_aspect_resolution_converter
+
+from configs import GAME_SCREEN_RESOLUTION, ORIGINAL_DUNGEON_AND_LENGTH_REGION
+
+LENGTH_REGION = relative_aspect_resolution_converter(
+    ORIGINAL_DUNGEON_AND_LENGTH_REGION, GAME_SCREEN_RESOLUTION)
 
 
 class BaseIdentifier():
