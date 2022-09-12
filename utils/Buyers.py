@@ -2,8 +2,12 @@ import pyautogui
 import time
 
 from utils.click import click
+from utils.screen_resolution_adjuster import relative_aspect_resolution_converter
 
-from configs import SHOP_REGION
+from configs import GAME_SCREEN_RESOLUTION, ORIGINAL_SHOP_REGION
+
+SHOP_REGION = relative_aspect_resolution_converter(
+    ORIGINAL_SHOP_REGION, GAME_SCREEN_RESOLUTION)
 
 
 class BaseBuyer():
