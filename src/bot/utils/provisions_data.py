@@ -31,6 +31,9 @@ provisions = {
             'holy_water': 0,
         }
     },
+    'the_courtyard_modifiers' : {
+        
+    } ,
 
     'ruins_modifiers': {
         'short': {

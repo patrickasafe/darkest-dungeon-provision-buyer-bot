@@ -1,8 +1,15 @@
-import keyboard
+import sys
 
-from utils.buy_provisions import buy_provisions
+from PyQt6.QtWidgets import QApplication
 
-# Here is the master function:
-while keyboard.is_pressed('q') == False:
-    print('running buy_provisions')
-    buy_provisions()
+from utils.MainWindow import MainWindow
+
+
+# run the window
+if __name__ == "__main__":
+    # # disable font errors
+    # warnings.filterwarnings('ignore')
+
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    sys.exit(app.exec())
